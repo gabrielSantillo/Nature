@@ -93,4 +93,89 @@ img {
   background-color: #bb7a5d;
   transform: translateX(-400px) translateY(130px);
   z-index: 1;
+}
+
+#page-main-second-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 3fr 1fr;
+  width: 100%;
+  height: 90vh;
+  background-color: #e0e5eb;
+  place-items: center;
+}
+#page-main-second-section > #page-main-second-section-div-content-one {
+  height: 20%;
+  width: 200px;
+  transform: translateX(350px) translateY(-130px);
+  display: grid;
+}
+#page-main-second-section > #page-main-second-section-div-content-one > :last-child {
+  font-size: 0.9rem;
+}
+#page-main-second-section > #page-main-second-section-div-content-two {
+  background-color: #e0e5eb;
+  transform: translateY(150px) translateX(130px);
+  width: 100%;
+  height: 40%;
+  display: grid;
+  place-items: center;
+  z-index: 3;
+}
+#page-main-second-section > #page-main-second-section-div-content-two > div {
+  background-image: url(/img/forest-second-section.jpg);
+  height: 95%;
+  width: 95%;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  color: white;
+}
+#page-main-second-section > #page-main-second-section-div-content-two > div > h1 {
+  padding: 10px;
+  transform: translateY(30px);
+}
+#page-main-second-section > #page-main-second-section-div-content-two > div > p {
+  padding: 10px;
+  line-height: 25px;
+}
+#page-main-second-section > #page-main-second-section-div-brown {
+  height: 80%;
+  width: 200px;
+  background-color: #bb7a5d;
+  transform: translateX(200px);
+  z-index: 1;
+}
+
+#page-main-second-section-div-img {
+  width: 100%;
+  height: 70%;
+  background-image: url(/img/picture-second-section.jpg);
+  background-size: cover;
+  background-position: center;
+  transform: translateX(-130px);
+  z-index: 2;
+}
+
+#page-main-second-section-div-content-three {
+  height: 30%;
+  width: 250px;
+  display: grid;
+  background-color: white;
+  padding: 10px;
+  transform: translateX(-420px) translateY(200px);
+  z-index: 3;
+}
+#page-main-second-section-div-content-three > p {
+  line-height: 20px;
+}
+#page-main-second-section-div-content-three > a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: black;
+  transform: translateY(10px);
+}
+#page-main-second-section-div-content-three > :last-child {
+  width: 35%;
+  height: 1px;
+  background-color: #bb7a5d;
 }/*# sourceMappingURL=style.css.map */
