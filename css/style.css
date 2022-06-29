@@ -287,4 +287,38 @@ img {
   background-image: url(/img/picture-woman-third-section.jpg);
   background-size: cover;
   background-position: center;
+}
+
+#page-main-fourth-section {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#page-main-fourth-section > #page-main-fourth-section-div-one {
+  width: 190%;
+  height: 100%;
+  background-color: #44594b;
+  z-index: 1;
+}
+#page-main-fourth-section > #page-main-fourth-section-div-two {
+  width: 130%;
+  height: 70%;
+  z-index: 2;
+  background-image: url(/img/picture-fourth-section.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#page-main-fourth-section > #page-main-fourth-section-div-three {
+  width: 50%;
+  height: 45%;
+  background-color: #bb7a5d;
+  z-index: 3;
+  transform: translateX(20px);
+  display: grid;
+  place-items: center;
+}
+#page-main-fourth-section > #page-main-fourth-section-div-three > h2 {
+  text-align: start;
+  padding-left: 20px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
