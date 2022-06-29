@@ -178,4 +178,113 @@ img {
   width: 35%;
   height: 1px;
   background-color: #bb7a5d;
+}
+
+#page-main-third-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 25%;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  height: 70vh;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#page-main-third-section-div-one {
+  display: grid;
+  grid-template-rows: 6fr 5fr;
+  row-gap: 20px;
+  color: white;
+}
+#page-main-third-section-div-one > #page-main-third-section-div-one-content {
+  height: 100%;
+  width: 100%;
+  background-color: #bb7a5d;
+  display: grid;
+  font-size: 1rem;
+}
+#page-main-third-section-div-one > #page-main-third-section-div-one-content > h3 {
+  transform: translateX(15px) translateY(30px);
+}
+#page-main-third-section-div-one > #page-main-third-section-div-one-content > p {
+  transform: translateX(15px) translateY(15px);
+  padding-right: 20%;
+  line-height: 20px;
+}
+#page-main-third-section-div-one > #page-main-third-section-div-one-content > a {
+  transform: translateX(15px) translateY(25px);
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+#page-main-third-section-div-one > #page-main-third-section-div-one-content > div {
+  width: 32%;
+  height: 1px;
+  background-color: white;
+  transform: translateX(14px);
+}
+#page-main-third-section-div-one #page-main-third-section-div-one-img {
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/picture-man-third-section.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#page-main-third-section-div-two {
+  display: grid;
+  display: grid;
+  grid-template-rows: 4fr 6fr;
+  row-gap: 20px;
+}
+#page-main-third-section-div-two > #page-main-third-section-div-two-content {
+  text-align: center;
+  transform: translateY(120px);
+}
+#page-main-third-section-div-two > #page-main-third-section-div-two-img {
+  background-image: url(/img/mountain-third-section.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 80%;
+  transform: translateY(-50px);
+}
+
+#page-main-third-section-div-three {
+  display: grid;
+  grid-template-rows: 5fr 6fr;
+  row-gap: 20px;
+}
+#page-main-third-section-div-three > #page-main-third-section-div-three-content {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  font-size: 1rem;
+}
+#page-main-third-section-div-three > #page-main-third-section-div-three-content > h3 {
+  transform: translateX(15px) translateY(30px);
+}
+#page-main-third-section-div-three > #page-main-third-section-div-three-content > p {
+  transform: translateX(15px) translateY(15px);
+  padding-right: 20%;
+  line-height: 20px;
+}
+#page-main-third-section-div-three > #page-main-third-section-div-three-content > a {
+  transform: translateX(15px) translateY(25px);
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#page-main-third-section-div-three > #page-main-third-section-div-three-content > div {
+  width: 32%;
+  height: 1px;
+  background-color: black;
+  transform: translateX(14px);
+}
+#page-main-third-section-div-three #page-main-third-section-div-three-img {
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/picture-woman-third-section.jpg);
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=style.css.map */
