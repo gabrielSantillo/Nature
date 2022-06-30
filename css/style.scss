@@ -438,3 +438,110 @@ $footer_color: #333333;
         }
     }
 }
+
+#page-main-sixth-section {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 70vh;
+    margin-top: 80px;
+    background-color: $light_blue;
+    width: 100%;
+    place-items: center;
+
+    >#page-main-sixth-section-div-one {
+        width: 100%;
+        height: 35%;
+        background-color: $dark_green;
+        z-index: 1;
+        transform: translateX(270px) translateY(50px);
+    }
+
+    >#page-main-sixth-section-div-two {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        width: 90%;
+        height: 70%;
+        z-index: 2;
+
+        >:first-child {
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            display: grid;
+
+            >h1 {
+                margin-left: 10px;
+                margin-top: 40px;
+                font-size: 2rem;
+            }
+
+            >div {
+                width: 20%;
+                height: 2px;
+                background-color: black;
+                margin-left: 10px;
+                transform: translateY(-20px);
+            }
+
+            >p {
+                margin: 0 10px;
+                transform: translateY(-20px);
+                line-height: 25px;
+            }
+
+            >button {
+                width: 40%;
+                margin-left: 10px;
+                height: 30px;
+                transform: translateY(-20px);
+                border: none;
+                font-weight: bold;
+                font-size: .8rem;
+            }
+
+            >button:hover {
+                cursor: pointer;
+            }
+        }
+
+        >:last-child {
+            background-image: url(/img/friends-picture-sixth-section.jpg);
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    >#page-main-sixth-section-div-three {
+        background-color: $brown;
+        width: 400px;
+        height: 50%;
+        z-index: 1;
+        transform: translateX(-380px) translateY(-100px);
+    }
+}
+
+#page-main-seventh-section {
+    height: 60vh;
+    width: 100%;
+    background-image: url(/img/picture-seventh-section.jpg);
+    background-size: cover;
+    background-position: center;
+
+    >div {
+        display: grid;
+        width: 30%;
+        height: 60%;
+        color: white;
+        transform: translateY(100px) translateX(250px);
+
+        >h1 {
+            font-size: 2rem;
+        }
+
+        >p {
+            line-height: 25px;
+        }
+    }
+}
