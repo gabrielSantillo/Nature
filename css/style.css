@@ -478,4 +478,22 @@ img {
 }
 #page-main-seventh-section > div > p {
   line-height: 25px;
+}
+
+#page-footer {
+  height: 100px;
+  width: 100%;
+  background-color: #333333;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+#page-footer > div {
+  line-height: 25px;
+}
+#page-footer > div > p {
+  text-align: center;
+}
+#page-footer > div > h4 {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

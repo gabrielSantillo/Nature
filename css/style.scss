@@ -545,3 +545,24 @@ $footer_color: #333333;
         }
     }
 }
+
+#page-footer {
+    height: 100px;
+    width: 100%;
+    background-color: $footer_color;
+    display: grid;
+    place-items: center;
+    color: white;
+
+    >div {
+    line-height: 25px;
+    
+         >p {
+        text-align: center;
+        }
+
+        >h4 {
+        text-align: center;
+        }
+    }
+}
